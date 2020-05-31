@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradient"
+    tools:context="com.example.AndroidStudioProjects.FinalProject.ratings">
+
+    <RatingBar
+        android:id="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:stepSize="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="86dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="87dp"
+        android:text="Rate here !!"
+        android:textSize="40dp"
+        android:textColor="#FFF"
+        app:layout_constraintBottom_toTopOf="@+id/rb1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="#f16f7d"
+        android:textColor="#FFF"
+        android:text="submit"
+        android:onClick="onClick"
+        android:padding="16dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        style = "@style/Base.TextAppearance.AppCompat.Body1" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2E1BD"
+    android:paddingRight="18dp"
+    android:paddingLeft="18dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.AndroidStudioProjects.FinalProject.userside2">
+
+    <ListView
+        android:id="@+id/eventlst"
+        android:layout_width="368dp"
+        android:layout_height="494dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="65dp" />
+</android.support.constraint.ConstraintLayout>

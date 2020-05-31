@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_login_gradient"
+    android:orientation="vertical"
+    tools:context="com.example.AndroidStudioProjects.FinalProject.Yoursevent"
+    tools:layout_editor_absoluteY="25dp">
+
+    <EditText
+        android:id="@+id/etev1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_event_white"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Event Name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <EditText
+        android:id="@+id/etev2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_event_note"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Event Description"
+        android:inputType="textPersonName"
+        android:maxLines="20"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <EditText
+        android:id="@+id/etev3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_event_white"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Event Date"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <EditText
+        android:id="@+id/etev4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_price"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Event Price"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/edimg2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="130dp"
+        android:baselineAlignBottom="true"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/ic_gallery"
+        android:layout_marginRight="0dp" />
+
+    <Button
+        android:id="@+id/edbtn1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textColor="#FFF"
+        android:background="#e9859f"
+        android:paddingBottom="4dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="33dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/eb1"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="8dp"
+        android:background="#FFF"
+        android:clickable="true"
+        android:padding="16dp"
+        android:text="ADD"
+        android:textColor="#f16f7d" />
+
+    <Button
+        android:id="@+id/eb2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#e9859f"
+        android:text="SHOW"
+        android:textColor="#FFF" />
+</LinearLayout>
+</LinearLayout>

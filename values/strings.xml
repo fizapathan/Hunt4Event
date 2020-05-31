@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name"><font size="20" family="Lintsec" ><b>Hunt4Event </b> </font></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_adminact">Hunt4Event</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_ehinneract">Hunt4Event</string>
+
+
+    <string name="event_name">Vadodara Marathon</string>
+    <string name="eh_name">Organized By People Of Vadodara</string>
+    <string name="large_text">
+        "Vadodara Marathon has been arrange by an active Youth community.\n\n"
+
+        "Do participate and live a healthy life.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="in_news">Made with Love for People who Love to Hunt</string>
+    <string name="publish_date">Last date for Registration is 30-03-2018</string>
+    <string name="title_activity_main_page">Hunt4Event</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="note_title">Vadodara Marathon</string>
+    <string name="note_description">Hurry Up!! Resisterations ending soon...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="names">
+        <item>Categories</item>
+        <item>Recent Events</item>
+    </string-array>
+
+    <string name="event_button1"><font size="26"> <b> Vadodara Marathon </b> </font> <font size="16"> \n\n Last date for registration is 24-05-2018</font> </string>
+    <string name="event_button2"><font size="26"> <b> Monument Visits - Kothi </b> </font> <font size="16"> \n\n Last date for registration is 30-05-2018</font> </string>
+    <string name="event_button3"><font size="26"> <b> Naari - A Wellness </b> </font> <font size="16"> \n\n Last date for registration is 24-06-2018</font> </string>
+    <string name="event_button4"><font size="26"> <b> Move Your Luck </b> </font> <font size="16"> \n\n Last date for registration is 26-07-2018</font> </string>
+
+    <string name="event_button5"><font size="26"> <b> Monument Visits - Kothi </b> </font> <font size="13"> \n Last date for registration is 30-05-2018</font> </string>
+    <string name="event_button6"><font size="26"> <b> Monument Visits - Kothi </b> </font> <font size="13"> \n Last date for registration is 30-05-2018</font> </string>
+
+</resources>

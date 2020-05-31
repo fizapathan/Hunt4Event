@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradient"
+    tools:context="com.example.AndroidStudioProjects.FinalProject.shwurevedetail"
+    tools:layout_editor_absoluteY="25dp">
+
+    <EditText
+        android:id="@+id/ed11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_event_white"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Event Name"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"/>
+
+    <EditText
+        android:id="@+id/ed22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_event_note"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Event Description"
+        android:inputType="textPersonName"
+        android:maxLines="20"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"/>
+
+    <EditText
+        android:id="@+id/ed33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_event_white"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Event Date"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"/>
+
+    <EditText
+        android:id="@+id/ed44"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/ic_price"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:hint="Event Price"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="#FFF"
+        android:textColorHint="#fff" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f9d7db"/>
+
+
+
+    <Button
+        android:id="@+id/bt11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF"
+        android:text="update"
+        android:textColor="#f16f7d"
+        android:padding="16dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        style = "@style/Base.TextAppearance.AppCompat.Body1" />
+
+    <Button
+        android:id="@+id/bt22"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9859f"
+        android:text="delete"
+        android:textColor="#FFF"/>
+</LinearLayout>

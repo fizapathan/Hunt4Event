@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Area"
+            android:icon="@drawable/ic_area"
+            android:title="Area" />
+        <item
+            android:id="@+id/nav_Eventhandler"
+            android:icon="@drawable/ic_person_black"
+            android:title="Eventhandler" />
+        <item
+            android:id="@+id/nav_User"
+            android:icon="@drawable/ic_person_black"
+            android:title="User" />
+        <item
+            android:id="@+id/nav_Category"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Category" />
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Subcategory"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Subcategory" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="send" />
+        </menu>
+    </item>
+-->
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradient"
+    tools:context="com.example.AndroidStudioProjects.FinalProject.userbook"
+    tools:layout_editor_absoluteY="25dp">
+
+
+    <TextView
+        android:id="@+id/txv3"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Event Using:"
+        android:textSize="25sp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e9859f"
+        android:text="Credit card"
+        android:onClick="credit"
+        android:padding="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:textColor="#FFF"
+        android:layout_alignParentBottom="true"
+        style = "@style/Base.TextAppearance.AppCompat.Body1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:text="DEBIT card"
+        android:onClick="debit"
+        android:padding="16dp"
+        android:clickable="true"
+        android:layout_above="@id/b4"
+        style = "@style/Base.TextAppearance.AppCompat.Body1" />
+
+</LinearLayout>
