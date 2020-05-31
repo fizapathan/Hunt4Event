@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nitika.FinalProject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="com.example.android.finalproject.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.android.finalproject.MainActivity">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <!--<activity android:name="com.example.android.finalproject.MapsActivity">
+
+        </activity>-->
+        <activity android:name="com.example.android.finalproject.MainPage"></activity>
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.login">
+         <!--   <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+-->
+        </activity>
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.ehuser" />
+        <activity
+            android:name="com.example.AndroidStudioProjects.FinalProject.adminact"
+            android:label="@string/title_activity_adminact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.signup1" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.signup2" />
+        <activity
+            android:name="com.example.AndroidStudioProjects.FinalProject.Ehinneract"
+            android:label="@string/title_activity_ehinneract"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.area" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.Categoryeh" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.catshow" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.catdetail" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.Viewarea" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.Eventhndlr1" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.EvnthndlrShow" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.User1" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.usershow" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.DetailArea" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.userdetail" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.eventdetail" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.Yoursevent" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.addgallery" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.Showgallery" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.rowgallery" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.userinEH1" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.ShowUsrInEH" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.DtlUsrInEh" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.showyourevents" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.subcategory" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.shwurevedetail" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.yoursevent1" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.EventCategory" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.Subcategoryshow" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.Forgotpassword" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.userside1" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.userside2" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.userbook" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.debit" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.credit" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.ratings" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.ratinguser" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.userside3" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.usersideeventname1" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.UserDetailEvent" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.UserGallery" />
+        <activity android:name="com.example.AndroidStudioProjects.FinalProject.Userprofile" />
+
+    </application>
+
+</manifest>
